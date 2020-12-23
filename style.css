@@ -1,0 +1,35 @@
+/* multiline comment 
+
+:root -- variable 
+4 selectors 
+universal  * 
+element    div,a,img,main,section etc
+class      .shadow
+id          #shadow
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center; /*vertical */
+    justify-content: center; /*horizontal */
+}
+
+.shadow{
+    background-color: #000;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    line-height: 350px;
+    text-transform: uppercase;
+}
